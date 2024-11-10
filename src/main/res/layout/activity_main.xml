@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_wood"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:text="24 Game"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="Enter Name"
+        android:background="@drawable/rounded_background"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:inputType="text"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Playbutton"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="Play"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="365dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Scorebutton"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="Score"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="450dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="@drawable/rounded_background_red"
+        android:layout_marginTop="535dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
